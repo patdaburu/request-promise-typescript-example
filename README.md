@@ -1,4 +1,4 @@
-# request-promise-typescript-example
+# Using `async-await` and `npm-promise` with TypeScript
 Wondering how to use Async/Await with the request module in TypeScript?  So was I.
 
 ## About the Project
