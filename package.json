@@ -1,0 +1,34 @@
+{
+  "name": "request-promise-typescript-example",
+  "version": "1.0.0",
+  "description": "This is a super simple example project all about using async-await with the request module.",
+  "main": "index.js",
+  "scripts": {
+    "main": "npm run tsc && node ./dist/index.js",
+    "tsc": "node_modules/typescript/bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patdaburu/request-promise-typescript-example.git"
+  },
+  "keywords": [
+    "async",
+    "request",
+    "request-promise"
+  ],
+  "author": "Pat Daburu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patdaburu/request-promise-typescript-example/issues"
+  },
+  "homepage": "https://github.com/patdaburu/request-promise-typescript-example#readme",
+  "dependencies": {
+    "@types/request-promise": "^4.1.39",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
