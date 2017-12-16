@@ -22,7 +22,6 @@ async function getMyUserIp(): Promise<string> {
     return response.origin;
 }
 
-
 /**
  * This is an asynchronous function that awaits another asynchronous.
  * @returns {Promise<void>}

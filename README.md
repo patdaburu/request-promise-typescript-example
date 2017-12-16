@@ -51,7 +51,7 @@ In this example, we'll use the [`request-promise`](https://www.npmjs.com/package
 
 In this example we simply make an asynchronous call using `async-await` and `request-promise` to get our own IP address.
 
-You can view the code here
+You can view the code [here](https://github.com/patdaburu/request-promise-typescript-example/blob/master/index.ts).
 
 ## Test Links
 
