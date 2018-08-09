@@ -15,7 +15,7 @@ Now, on to the details.
 
 `async-await` is syntactic sugar for Javascript [promises](https://developers.google.com/web/fundamentals/primers/promises), so if you aren't yet familiar with promises, click that link.  We'll be here when you get back. 
 
-In short, you prefix your asynchronous functions with the `async` keyword and `await` suspectds execution until an asynchronous function that returns a *Promise* is fulfilled and unwraps the *Promise* for you so what you get is the value the *Promise* contained.
+In short, you prefix your asynchronous functions with the `async` keyword and `await` suspends execution until an asynchronous function that returns a *Promise* is fulfilled and unwraps the *Promise* for you so what you get is the value the *Promise* contained.
 
 There's nothing going on you couldn't do manually by constructing new *Promise* instances and unwrapping them yourself, but just as with the preceding paragraphs, `async-await` let's you type the word *Promise* fewer times.
 
